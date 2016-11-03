@@ -4,3 +4,11 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+aiohttp==1.0.2            # via muffin
+async-timeout==1.1.0      # via aiohttp
+cached-property==1.3.0    # via muffin
+chardet==2.3.0            # via aiohttp, muffin
+gunicorn==19.6.0          # via muffin
+muffin==0.10.2
+multidict==2.1.2          # via aiohttp
+ujson==1.35               # via muffin
