@@ -4,11 +4,28 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-aiohttp==1.0.2            # via muffin
+aioauth-client==0.9.0     # via muffin-oauth
+aiohttp==1.0.2            # via aioauth-client, muffin
 async-timeout==1.1.0      # via aiohttp
+Babel==2.3.4              # via muffin-babel
 cached-property==1.3.0    # via muffin
 chardet==2.3.0            # via aiohttp, muffin
+Faker==0.7.3              # via mixer
 gunicorn==19.6.0          # via muffin
+jinja2==2.7.3             # via muffin-jinja2
+markupsafe==0.23          # via jinja2
+mixer==5.5.8
+muffin-admin==0.4.3
+muffin-babel==0.2.0       # via muffin-admin
+muffin-debugtoolbar==0.3.0
+muffin-jinja2==0.1.1
+muffin-oauth==0.3.0
+muffin-session==0.3.0
 muffin==0.10.2
 multidict==2.1.2          # via aiohttp
+python-dateutil==2.5.3    # via faker
+pytz==2016.7              # via babel
+six==1.10.0               # via faker, python-dateutil
+speaklater==1.3           # via muffin-babel
 ujson==1.35               # via muffin
+wtforms==2.1              # via muffin-admin

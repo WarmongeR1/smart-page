@@ -1,1 +1,10 @@
 muffin
+
+mixer
+
+# muffin plugins
+muffin-admin
+muffin-debugtoolbar
+muffin-jinja2
+muffin-oauth
+muffin-session
