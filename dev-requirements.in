@@ -1,0 +1,24 @@
+-r requirements.in
+
+tox
+bpython
+
+pytest
+
+# py.test plugins
+pytest-sugar
+pytest-cov
+# pytest-xdist
+# pytest-benchmark
+# pytest-cache
+# pytest-testmon
+
+# codestyle
+isort
+pyformat
+flake8
+pylint
+yapf
+
+# for debug with prints
+colorama
